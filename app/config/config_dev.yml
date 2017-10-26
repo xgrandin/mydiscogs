@@ -39,3 +39,13 @@ monolog:
 
 #swiftmailer:
 #    delivery_addresses: ['me@example.com']
+
+# Discogs API
+ricbra_discogs:
+    throttle:
+        enabled: false # or true
+   # oauth:
+       # enabled: true
+       # consumer_key: iAuHWjMbNDUrVdxetURa
+       # consumer_secret: rEwXKssXXrFKlQvIPqFMmMoLNFQZCIld
+       # token_provider_id: ricbra_discogs.hwi_oauth_token_provider
